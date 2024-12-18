@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://localhost:3000",
+    origin: "https://academyx-edtech-app.vercel.app",
     credentials: true,
     optionSuccessStatus: 200,
   })
